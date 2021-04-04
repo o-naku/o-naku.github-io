@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="st.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <div class="app">
+
+        <div class="box images">
+            <img src="https://media.wired.com/photos/5bb6accf0abf932caf294b18/master/pass/waves-730260985.jpg"
+            alt=""
+            id="image"
+            >
+            <div class="input">
+                <input
+                id="img-url"
+                type="text"
+                placeholder="ddd"
+                value="https://media.wired.com/photos/5bb6accf0abf932caf294b18/master/pass/waves-730260985.jpg">
+            </div>
+        </div>
+
+        <div class="box settings">
+            <div class="sliders">
+
+                <div class="slider">
+                    <label for="grayscale">grayscale</label>
+                    <input type="range" min="0" max="100" value="0" id="grayscale" >
+                </div>
+
+                <div class="slider">
+                    <label for="contrast">contrast</label>
+                    <input type="range" min="50" max="200" value="100" id="contrast" >
+                </div>
+
+                <div class="slider">
+                    <label for="brightness">brightness</label>
+                    <input type="range" min="50" max="200" value="100" id="brightness" >
+                </div>
+
+                <div class="slider">
+                    <label for="sepia">sepia</label>
+                    <input type="range" min="0" max="100" value="0" id="sepia" >
+                </div>
+
+                <div class="slider">
+                    <label for="saturate">saturate</label>
+                    <input type="range" min="0" max="200" value="100" id="saturate" >
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="btn" id="reset" disabled>Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
